@@ -24,8 +24,8 @@ public class TestInsertar {
 		entityTransaction.begin();
 		// //////////////////////////////////////////////
 		Autor autor2 = new Autor();
-		autor2.setCodAutor(57);
-		autor2.setNomAutor("Miguel de Cervantes");
+		autor2.setCodAutor(58);
+		autor2.setNomAutor("Miguel de Bilbao");
 		entityManager.persist(autor2);
 		// ////////////////////////////////////////////
 		entityTransaction.commit();
